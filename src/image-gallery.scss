@@ -1,0 +1,27 @@
+@import './lightbox';
+
+img.image-gallery-selected {
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+/* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
+
+@keyframes image-gallery-effect {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  50% {
+    transform: scale3d(1.05, 1.05, 1.05);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+img.image-gallery-effect {
+  animation-name: image-gallery-effect;
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
