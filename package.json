@@ -1,6 +1,6 @@
 {
   "name": "react-image-gallery-lightbox",
-  "version": "0.0.18",
+  "version": "0.0.21",
   "author": "Oleg Nosov <olegnosov1@gmail.com>",
   "description": "React lightweight image gallery with lightbox",
   "license": "MIT",

@@ -44,6 +44,10 @@ Else you can hardcode each path using srcList prop.
     3rd - big image (lightbox preview).
     Default is ['102x68', '483x321', '800x533']
 
+##Demo
+
+Live demo: [`https://www.solarleague.org/shop/macbook-case/`](https://www.solarleague.org/shop/macbook-case/)
+
 **Usage**
 ```shell
 npm install --save react-image-gallery-lightbox

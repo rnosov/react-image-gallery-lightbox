@@ -1,4 +1,8 @@
 
+##Demo
+
+Live demo: [`https://www.solarleague.org/shop/macbook-case/`](https://www.solarleague.org/shop/macbook-case/)
+
 **Usage**
 ```shell
 npm install --save react-image-gallery-lightbox
