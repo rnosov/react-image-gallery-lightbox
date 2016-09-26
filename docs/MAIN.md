@@ -54,8 +54,6 @@ import 'react-image-gallery-lightbox/dist/image-gallery.css';
 
 ##Development
 
-You need __bash__ to perform tasks below
-
 **Build**
 
 ```shell

@@ -1,9 +1,9 @@
 exports[`ImageGallery takes snapshot 1`] = `
-"<div><div class=\"row\"><div class=\"col-xs-12 col-sm-6 col-md-5 col-lg-6\"><div class=\"text-xs-center m-b-1\"><img role=\"button\" class=\"img-fluid m-x-auto d-block \" src=\"1-483x321.jpeg\"></div><div class=\"row\"><div class=\"col-xs-4
+"<div><div class=\"row\"><div class=\"col-xs-12 col-sm-6 col-md-5 col-lg-6\"><div><div class=\"text-xs-center m-b-1\"><img role=\"button\" class=\"img-fluid m-x-auto d-block \" src=\"1-483x321.jpeg\"></div><div class=\"row\"><div class=\"col-xs-4
             col-md-4
             text-xs-center\"><img role=\"button\" src=\"1-102x68.jpeg\" class=\"img-fluid img-thumbnail m-b-1 image-gallery-selected\"></div><div class=\"col-xs-4
             col-md-4
             text-xs-center\"><img role=\"button\" src=\"2-102x68.jpeg\" class=\"img-fluid img-thumbnail m-b-1\"></div><div class=\"col-xs-4
             col-md-4
-            text-xs-center\"><img role=\"button\" src=\"3-102x68.jpeg\" class=\"img-fluid img-thumbnail m-b-1\"></div></div></div><div class=\"col-xs-12 col-sm-6 col-md-7 col-lg-6\"></div></div><!-- react-empty: 14 --></div>"
+            text-xs-center\"><img role=\"button\" src=\"3-102x68.jpeg\" class=\"img-fluid img-thumbnail m-b-1\"></div></div></div></div><div class=\"col-xs-12 col-sm-6 col-md-7 col-lg-6\"></div></div><!-- react-empty: 15 --></div>"
 `;

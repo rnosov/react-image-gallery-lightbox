@@ -1,6 +1,6 @@
 {
   "name": "react-image-gallery-lightbox",
-  "version": "0.0.22",
+  "version": "0.0.24",
   "author": "Oleg Nosov <olegnosov1@gmail.com>",
   "description": "React lightweight image gallery with lightbox",
   "license": "MIT",
@@ -10,9 +10,9 @@
     "gallery",
     "lightbox"
   ],
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/olegnn/react-image-gallery-lightbox.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olegnn/react-image-gallery-lightbox.git"
   },
   "main": "./dist/image-gallery.js",
   "dependencies": {
@@ -47,6 +47,12 @@
     "eslint-plugin-jsx-a11y": "^2.2.1",
     "eslint-plugin-react": "^6.2.0",
     "flow-bin": "^0.31.1",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-documentation": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
     "jest-cli": "^15.1.0",
     "node-sass": "^3.10.0",
     "react-addons-test-utils": "^15.3.2",
@@ -54,10 +60,11 @@
     "uglify-js": "^2.7.3"
   },
   "scripts": {
-    "build": "bash build",
-    "test": "jest",
-    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "build": "./node_modules/gulp/bin/gulp.js build",
+    "test": "jest .",
+    "flow": "flow",
     "lint": "./node_modules/.bin/eslint .",
-    "doc": "./node_modules/documentation/bin/documentation.js build -f=md ./src -o README.md && cat DOC.md >> README.md"
+    "doc": "./node_modules/gulp/bin/gulp.js doc",
+    "prepublish": "npm run build && npm run doc && npm run test -- -u;"
   }
 }
