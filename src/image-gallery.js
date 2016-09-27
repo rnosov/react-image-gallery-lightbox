@@ -162,7 +162,7 @@ export default class ImageGallery extends Component {
       })
     , {});
     /*
-     * If only one image prodided, don't show thumbnails at all
+     * If only one image provided, don't show thumbnails at all
      */
     const imagesThumbnails = count - 1 ? Array.from({ length: count }, (v, n) => {
       const k = n + 1;
@@ -228,7 +228,7 @@ export default class ImageGallery extends Component {
                 onCloseRequest={ this.onLightboxClose }
               />
             </Portal> : void 0
-         }
+        }
       </div>
     );
   }

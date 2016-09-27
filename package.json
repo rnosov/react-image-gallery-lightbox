@@ -1,6 +1,6 @@
 {
   "name": "react-image-gallery-lightbox",
-  "version": "0.0.25",
+  "version": "0.0.28",
   "author": "Oleg Nosov <olegnosov1@gmail.com>",
   "description": "React lightweight image gallery with lightbox",
   "license": "MIT",
@@ -51,7 +51,7 @@
     "gulp": "^3.9.1",
     "gulp-babel": "^6.1.2",
     "gulp-concat": "^2.6.0",
-    "gulp-documentation": "^2.2.0",
+    "gulp-exec": "^2.1.2",
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "jest-cli": "^15.1.0",
