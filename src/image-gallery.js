@@ -14,9 +14,7 @@
  * srcList + path props to create gallery
  *
  * In order to use count + path + sizes template
- * each image must have name in the format:
- *
- * {path}/{imageNumber}-{size}.jpeg.
+ * each image must have name in the format: {path}/{imageNumber}-{size}.jpeg.
  *
  * Else you can hardcode each path using srcList prop.
  *
