@@ -4,6 +4,10 @@ img.image-gallery-selected {
   box-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+img.image-gallery-main {
+  cursor: zoom-in;
+}
+
 /* originally authored by Nick Pettit - https://github.com/nickpettit/glide */
 
 @keyframes image-gallery-effect {

@@ -196,7 +196,7 @@ export default class ImageGallery extends Component {
                     <img
                       onLoad={ this.onMainImageLoad }
                       role="button"
-                      className={ 'img-fluid m-x-auto d-block ' + (this.state.isMainImageLoaded ? effect : '') }
+                      className={ 'image-gallery-main img-fluid m-x-auto d-block ' + (this.state.isMainImageLoaded ? effect : '') }
                       src={ srcs.medium[this.state.selectedImage - 1] }
                       onClick={ this.openLightbox }
                     />
